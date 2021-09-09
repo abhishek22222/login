@@ -1,0 +1,16 @@
+.sidebar {
+  
+    margin-right: 10px;
+    flex: 0.2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-height: 85vh;
+    background-color: white;
+    padding-right: 2%;
+  }
+  

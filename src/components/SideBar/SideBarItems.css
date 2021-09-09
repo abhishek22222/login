@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+.SideBarItems {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.SideBarItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.SideBarItem:hover {
+   background-color: rgb(193, 229, 241);
+   border-radius: 5px;
+}
+.SideBarItem > Link img{
+   
+    margin-left: 20px;
+    border-radius: 35px;
+
+}
+.SideBarItem > img{
+   
+    margin-left: 20px;
+    border-radius: 35px;
+   
+
+}
+.SideBarItem > p.Link{
+   margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+   text-decoration: none;
+   color: inherit;
+
+}
+
+.SideBarItems > h4 {
+    margin-left: 34px;
+
+}
+/* .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 115px;
+    left: 0;
+    background-color: lightcyan;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav > Link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+.main {
+ */
