@@ -18,6 +18,8 @@ import './App.css';
   import Login from './components/Pages/Login/Login';
   import Profile from './components/Pages/Profile/Profile';
   import SearchBar from './components/Pages/SearchBar';
+import { Navbar } from 'react-bootstrap';
+
   
  
 function App() {

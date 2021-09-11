@@ -4,7 +4,7 @@
 
  .Header {
    list-style-type: none;
-   width: 100%;
+   width: auto;
    background-color: #002147;
   position: sticky;
   z-index: 1000;
@@ -61,7 +61,7 @@
      margin-top: 8px;
      margin-right: 16px;
      font-size: 1vw;
-     width: 400px;
+     width: 28vw;
    }
    
 
@@ -87,6 +87,16 @@
   
 
   /* Responsive */
+  @media screen and (max-width: 970px){
+    .searchBar{
+    width: 45vw;
+    }
+  }
+  @media screen and (max-width: 770px){
+    .searchBar{
+    width: 35vw;
+    }
+  }
     @media screen and (min-width: 375px) {
      .login {
        font-size: medium;
@@ -130,5 +140,6 @@
       font-size: small;
     }
   }   */
+  
   
  ;
